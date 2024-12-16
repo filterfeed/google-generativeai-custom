@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="google-generativeai-custom",  # match the name you use after #egg=
+    name="google-generativeai-custom",  # Distribution name
     version="0.1.0",
-    packages=find_packages(include=['google', 'google.*']),
+    packages=find_packages(),  # Automatically finds all packages
     install_requires=[],
 )
